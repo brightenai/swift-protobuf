@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "sdk": "/Users/johnburkey/brightenTools/swift-android-toolchain",
+    "toolchain-bin-dir": "/Users/johnburkey/brightenTools/swift-android-toolchain",
+    "target": "aarch64-unknown-linux-android",
+    "dynamic-library-extension": "so",
+    "extra-cc-flags": [
+        "-fPIC",
+        "-mcpu=cortex-a57"
+    ],
+    "extra-swiftc-flags": [
+        "-use-ld=gold"
+    ],
+    "extra-cpp-flags": ["-lstdc++"]
+}
